@@ -1,0 +1,54 @@
+# Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.pickle
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+
+# Environment variables
+.env
+*.env
+
+# Uploads / data storage
+uploads/
+data/
+*.db
+*.sqlite3
+
+# Logs and reports
+*.log
+logs/
+*.out
+*.err
+
+# IDE/editor settings
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Build / packaging
+dist/
+build/
+*.egg-info/
+
+# Node / frontend (if added later)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Coverage / testing
+.coverage
+htmlcov/
+.pytest_cache/
